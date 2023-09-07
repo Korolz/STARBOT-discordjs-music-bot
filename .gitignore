@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+#Custom ignore
+config.json
+node_modules
+.env
+youtube-token.json
+yt-oauth.json
+package-lock.json

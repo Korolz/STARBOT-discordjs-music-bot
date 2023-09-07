@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89fbfa3b-4614-4d6f-b755-fd29ded83841" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/starbot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2TDJGNjAMuDyVTNIH1n5OhwQ3N0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.17.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Korolz/WebstormProjects/starbot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;DotEnv.SettingsForm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Korolz\WebstormProjects\starbot\src\listeners\bot" />
+      <recent name="C:\Users\Korolz\WebstormProjects\starbot\src\listeners" />
+      <recent name="C:\Users\Korolz\WebstormProjects\starbot" />
+      <recent name="C:\Users\Korolz\WebstormProjects\starbot\src\structures" />
+      <recent name="C:\Users\Korolz\WebstormProjects\starbot\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89fbfa3b-4614-4d6f-b755-fd29ded83841" name="Changes" comment="" />
+      <created>1690571621861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690571621861</updated>
+      <workItem from="1690571622870" duration="58000" />
+      <workItem from="1690571775274" duration="1740000" />
+      <workItem from="1690577623562" duration="960000" />
+      <workItem from="1690630285470" duration="9459000" />
+      <workItem from="1690640581651" duration="67000" />
+      <workItem from="1690716718326" duration="4882000" />
+      <workItem from="1691017544406" duration="6000" />
+      <workItem from="1691078174832" duration="9461000" />
+      <workItem from="1691092209866" duration="340000" />
+      <workItem from="1691143995606" duration="6432000" />
+      <workItem from="1691239628211" duration="18725000" />
+      <workItem from="1691355406024" duration="9172000" />
+      <workItem from="1691423457918" duration="983000" />
+      <workItem from="1691438858033" duration="5943000" />
+      <workItem from="1691488442832" duration="2806000" />
+      <workItem from="1691512269863" duration="7472000" />
+      <workItem from="1691599243545" duration="2817000" />
+      <workItem from="1691697795885" duration="4802000" />
+      <workItem from="1691860322897" duration="715000" />
+      <workItem from="1691917637612" duration="10532000" />
+      <workItem from="1691939224435" duration="5534000" />
+      <workItem from="1693133655412" duration="1527000" />
+      <workItem from="1693142546995" duration="796000" />
+      <workItem from="1693165723065" duration="5878000" />
+      <workItem from="1693222665127" duration="7574000" />
+      <workItem from="1693242990692" duration="1672000" />
+      <workItem from="1693248404816" duration="10220000" />
+      <workItem from="1693259538931" duration="264000" />
+      <workItem from="1693342296682" duration="1809000" />
+      <workItem from="1693412948210" duration="6997000" />
+      <workItem from="1693496982926" duration="5538000" />
+      <workItem from="1693743961788" duration="10541000" />
+      <workItem from="1693917239891" duration="6383000" />
+      <workItem from="1694004071895" duration="953000" />
+      <workItem from="1694031486241" duration="82000" />
+      <workItem from="1694087004572" duration="2299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
