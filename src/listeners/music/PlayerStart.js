@@ -1,5 +1,6 @@
 const {EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle} = require("discord.js");
-const formatDuration = require('../../structures/formatDuration');
+const formatDuration = require('../../structures/Music/formatDuration');
+const {useMainPlayer} = require("../../structures/Music/Player");
 
 module.exports = {
     name: "playerStart",
@@ -36,8 +37,6 @@ module.exports = {
             .setDescription(`by ${track.author}`)
             .setTimestamp();
 
-        return queue.metadata.channel.send({ embeds: [embed], components: [buttonRow] }).then(msg => {
-            setTimeout(() => msg.delete(), formatDuration(track.duration)*1000)
-        }).catch(e => console.log('something with nowPlayingMessage: ',e));
+        return queue.metadata.channel.send({embeds: [embed], components: [buttonRow]});
     },
 };

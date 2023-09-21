@@ -4,8 +4,7 @@ const path = require("node:path");
 const fs = require("node:fs");
 const signale = require('signale');
 
-const listenersPath = path.join(__dirname, '../listeners');
-const listenersFolder = fs.readdirSync(listenersPath);
+const listenersPath = path.join(__dirname, '../../listeners');
 
 module.exports = class StarPlayer extends Player {
     constructor(client) {

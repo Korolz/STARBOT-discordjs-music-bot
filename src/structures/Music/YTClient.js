@@ -1,10 +1,9 @@
-//const readline = require('readline');
 const fs = require('fs');
 const path = require('path');
 const {google} = require('googleapis');
 const OAuth2 = google.auth.OAuth2;
 
-const TOKEN_DIR = path.join(__dirname, '../../resources/');
+const TOKEN_DIR = path.join(__dirname, '../../../resources/');
 const OAUTH_PATH = path.join(TOKEN_DIR, 'yt-oauth.json');
 const TOKEN_PATH = path.join(TOKEN_DIR, 'youtube-token.json');
 const SCOPES = [
@@ -100,9 +99,7 @@ module.exports = class YTClient {
         }
         catch (error) {
             console.error('Error fetching playlists:', error.message);
-            await this.getNewToken(this.storeToken, this.interaction, this.oauth2Client); //EXPERIMENTAL in case of invalid_grant error
         }
     }
-
 
 }

@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-const YTClient = require('../../structures/YTClient');
+const YTClient = require('../../structures/Music/YTClient');
 
 module.exports = {
     data: new SlashCommandBuilder()

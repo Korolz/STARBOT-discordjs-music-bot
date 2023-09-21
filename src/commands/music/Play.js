@@ -1,6 +1,6 @@
 const { useMainPlayer, useQueue } = require('discord-player');
 const { SlashCommandBuilder } = require('discord.js');
-const QueueHelper = require('../../structures/QueueHelper');
+const QueueHelper = require('../../structures/Music/QueueHelper');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -47,17 +47,21 @@ module.exports = {
         const searchResult = await player.search(query, {
             requestedBy: interaction.user,
         });
-        if (!searchResult?.tracks.length) {
+
+        if (searchResult.isEmpty())
             return interaction.editReply(`No results were found for your query ${query}!`);
-        }
+
+        let size = 0;
+        if (queue)
+            size = queue.tracks.size; //because empty queue == null
 
         try {
-            const { track } = await player.play(channel, query, {
+            const {track} = await player.play(channel, searchResult, {
                 nodeOptions: {
                     metadata: {
                         channel: interaction.channel,
                         client: interaction.guild.members.me,
-                        requestedBy: interaction.user,
+                        requestedBy: interaction.user
                     },
                     leaveOnEmpty: true,
                     leaveOnEmptyCooldown: 60000,
@@ -65,17 +69,22 @@ module.exports = {
                     leaveOnEndCooldown: 300000,
                 }
             });
-            let size = 0;
-            if (queue)
-                size = queue.tracks.size;
-            return interaction.editReply({ content: null, embeds: [QueueHelper.queuedEmbed(track.title, track.url, track.duration, size, interaction.user)] });
-        } catch (e) {
-            // let's return error if something failed
-            console.log(e);
+            if(searchResult.playlist === null){
+                return interaction.editReply({
+                    content: null,
+                    embeds: [QueueHelper.queuedEmbed(track.title, track.url, track.duration, size, interaction.user)]
+                });
+            }
             return interaction.editReply({
-                content: 'There was an error trying to execute that command!\n',
+                content: null,
+                embeds: [QueueHelper.queuedEmbed(searchResult.playlist.title, searchResult.playlist.url, searchResult.playlist.durationFormatted, size, interaction.user)]
+            });
+        } catch (err) {
+            console.log(err);
+            return interaction.editReply({
+                content: 'There was an error trying to play this playlist!\n',
                 ephemeral: true
             });
         }
     }
-};
+}

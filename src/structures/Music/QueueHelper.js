@@ -2,6 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = class QueueHelper {
     static queuedEmbed(trackName, trackLink, trackDuration, tracks, trackRequester) {
+
         let embedString = 'Queued ';
         if (trackName && !trackLink) embedString += `**${trackName}**`;
         if (trackName && trackLink) embedString += `**${trackName}**`;

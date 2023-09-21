@@ -18,7 +18,7 @@ module.exports = {
                 signale.error(err);
             }
         } else if (interaction.isButton()) {
-            const command = interaction.client.commands.get(interaction.customId); //WARNING сделать потом нормально и отделить кнопки от комманд!!!
+            const command = interaction.client.commands.get(interaction.customId); //WARNING сделать потом нормально и отделить кнопки от команд!!!
             if (!command) {
                 signale.fatal(`No command matching ${interaction.commandName} was found.`);
                 return;

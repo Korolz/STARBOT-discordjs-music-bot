@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89fbfa3b-4614-4d6f-b755-fd29ded83841" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/starbot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/music/Play.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/music/Play.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/music/Shutdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/music/Shutdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/yt-commands/Playlists.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/yt-commands/Playlists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listeners/music/PlayerFinish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listeners/music/PlayerStart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/listeners/music/PlayerStart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/Music/Player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/QueueHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/Music/QueueHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/YTClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/Music/YTClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/formatDuration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/Music/formatDuration.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +57,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Korolz\WebstormProjects\starbot\src\structures\Music" />
       <recent name="C:\Users\Korolz\WebstormProjects\starbot\src\listeners\bot" />
       <recent name="C:\Users\Korolz\WebstormProjects\starbot\src\listeners" />
       <recent name="C:\Users\Korolz\WebstormProjects\starbot" />
       <recent name="C:\Users\Korolz\WebstormProjects\starbot\src\structures" />
-      <recent name="C:\Users\Korolz\WebstormProjects\starbot\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,7 +107,16 @@
       <workItem from="1693917239891" duration="6383000" />
       <workItem from="1694004071895" duration="953000" />
       <workItem from="1694031486241" duration="82000" />
-      <workItem from="1694087004572" duration="2299000" />
+      <workItem from="1694087004572" duration="4736000" />
+      <workItem from="1694095557827" duration="6998000" />
+      <workItem from="1694124337104" duration="1662000" />
+      <workItem from="1694802816772" duration="228000" />
+      <workItem from="1695134994221" duration="280000" />
+      <workItem from="1695143242628" duration="696000" />
+      <workItem from="1695206342144" duration="13070000" />
+      <workItem from="1695221127955" duration="6784000" />
+      <workItem from="1695231306102" duration="115000" />
+      <workItem from="1695312034612" duration="569000" />
     </task>
     <servers />
   </component>

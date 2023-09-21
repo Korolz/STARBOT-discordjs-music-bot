@@ -26,6 +26,7 @@ module.exports = {
         }
 
         //shutting down
+        queue.clear();
         queue.delete();
         await interaction.reply({
             content: 'Bye!',
